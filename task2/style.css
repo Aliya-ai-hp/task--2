@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f8f8f8;
+    color:#333;
+    overflow-x:hidden;
+    position:relative;
+}
+.bg{
+    position:absolute;
+    width:130%;
+    height:300px;
+    background:white;
+    border-radius:50%;
+    left:-15%;
+    z-index:-1;
+}
+.wave1{
+    top:420px;
+}
+.wave2{
+    top:1050px;
+}
+.wave3{
+    top:1700px;
+}
+.wave4{
+    top:2350px;
+}
+.logo{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.content>h2{
+    display: flex;
+    margin-left: 18%;
+    font-size: 30px;
+    margin-top: 1%;
+    
+}
+.content>p{
+    display: flex;
+    margin-left: 22% ;
+    font-size: 30px;
+    margin-top: 1% ;
+
+}
+#s1{
+    height: 160px;
+    width: 320px;
+    margin-left: 17%;
+    margin-top: 4%;
+}
+#s2{
+    height: 160px;
+    width: 320px;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.phone{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 12px;
+}
+.image-r{
+    width: 40%;
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+    top: 35px;
+  
+
+}
+.text>h2{
+    font-size: 30px;
+   display: flex;
+     margin-left: 63%;
+    position: absolute;
+    top: 23%;
+}
+.text>p{
+    font-size: 30px;
+    display: flex;
+     margin-left: 61%;
+     position: absolute;
+     top: 24.5%;
+    color: #9b9393;
+      
+}
+.text0>h2{
+   font-size: 30px;
+   display: flex;
+     margin-left: 26%;
+    position: absolute;
+    top: 47%;  
+}
+.text0>p{
+    font-size: 30px;
+    display: flex;
+     margin-left: 24%;
+     position: absolute;
+     top: 48%;
+    color: #9b9393;
+}
+#phone2{
+    width: 70%;
+    display: flex;
+    margin-left: 54%;
+    position: relative;
+    top: -30px;
+}
+#image0{
+    width: 20% ;
+    margin-left: 15%;
+    position: relative;
+    top: -35px;
+}
+
+.text1>h2{
+    font-size: 30px;
+   display: flex;
+     margin-left: 63%;
+    position: absolute;
+    top: 73%;
+}
+.text1>p{
+    font-size: 30px;
+    display: flex;
+    margin-left: 61%;
+    position: absolute;
+    top: 74%;
+    color: #9b9393 
+}
+#logo-b{
+  width: 40%;
+  position: absolute;
+  left: 48%;
+  top: 64%; 
+}
+.text2{
+    font-size: 30px;
+    position: relative;
+    left: 1100px;
+    top: -55px;
+}
+#sa{
+    height: 160px;
+    width: 320px;
+     position: relative;
+    left: 850px;
+    top: -20px;
+}
+#sb{
+   
+    height: 160px;
+    width: 320px; 
+     position: relative;
+    left: 900px;
+    top: -20px;
+}
+.text3{
+    font-size: 20px;
+    position: relative;
+    left: 1020px;
+    top: -15px;
+
+}
+#bc{
+    color: rgb(111, 160, 228);
+}
+.footer-logo{
+    position: relative;
+    left: 1100px; 
+}
